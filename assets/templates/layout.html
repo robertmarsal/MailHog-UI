@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/jquery-ui-1.10.4-smoothness.css">
     <link rel="stylesheet" href="css/bootstrap-3.3.2.min.css">
     <link rel="stylesheet" href="css/style.css">
+    [: if .config.DarkMode :]
+      <link rel="stylesheet" href="css/dark-mode.css">
+    [: end :]
   </head>
   <body ng-controller="MailCtrl" ng-click="keepopen=false">
     <nav class="navbar navbar-default navbar-static-top" role="navigation">

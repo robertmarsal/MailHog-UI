@@ -1,0 +1,53 @@
+body {
+    background: #0d1117;
+}
+
+a {
+    color: #58a6ff;
+}
+
+.toolbar {
+    color: #c9d1d9;
+    border-bottom: 1px solid #21262d;
+}
+
+.navbar-default {
+    background: #161b22;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #f0f6fc;
+}
+
+.well {
+    color: #c9d1d9;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+}
+
+.btn-default {
+    background-color: #161b22;
+    color: #c9d1d9;
+}
+
+.btn-default.disabled {
+    color: #484f58;
+    background-color: #161b22;
+}
+
+.btn-default:hover {
+    background-color: #161b22;
+    border-color: #8b949e;
+    color: #c9d1d9;
+}
+
+.form-control, .list-group-item {
+    background-color: #000000;
+    color: #c9d1d9;
+}
+
+
+a.list-group-item {
+    color: #c9d1d9;
+}
